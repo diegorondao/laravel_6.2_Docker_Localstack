@@ -1,0 +1,141 @@
+.toggle-nav {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    #content-wrapper {
+        margin-left: 250px;
+    }
+
+    #nav-col {
+        width: 250px;
+    }
+
+    .toggle-nav {
+        display: block;
+    }
+}
+
+.navbar-left {
+    margin-left: 30px;
+}
+
+.main-box .main-box-body h3 {
+    border-bottom: 0;
+}
+
+div.table {
+    display: table;
+}
+
+div.table .table-head {
+    display: table-header-group;
+}
+
+div.table .table-body {
+    display: table-row-group;
+}
+
+div.table .table-row {
+    display: table-row;
+}
+
+div.table .table-row .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+div.table .table-head .table-row .table-cell {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.table .table-body .table-row .table-cell {
+    border-top: 1px solid #ddd;
+}
+
+.table tbody tr td:first-child {
+    font-size: 0.875em;
+}
+
+.table thead tr th.table-btn,
+div.table .table-row .table-cell.table-btn {
+    width: 100px;
+}
+
+.dataTables_empty {
+    text-align: center;
+}
+
+.main-box .main-box-body .btn-actions {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+    .main-box .main-box-body .btn-actions {
+        text-align: right;
+        margin-top: -40px;
+    }
+}
+
+.multiple-select-box {
+	height: 190px;
+	border: 2px solid #eaeaea;
+	border-radius: 3px;
+	padding: 10px;
+	overflow: auto
+}
+
+.div-farol {
+    height: 80px;
+    width: 170px;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 28px;
+}
+
+.jquery-sortable-placeholder {
+	border: 2px dashed rgba(0, 178, 238, .5);
+	border-radius: 2px;
+	margin: 15px 0;
+}
+
+.btn-success-verde:hover,
+.btn-success-verde:focus,
+.btn-success-verde:active,
+.btn-success-verde.active,
+.open .dropdown-toggle.btn-success-verde {
+    background-color: #689f38;
+    color: #fff;
+}
+
+.btn-success-verde {
+    color: #fff;
+    background-color: #8bc34a;
+    border-color: #689f38;
+}
+
+.row-form-text {
+    margin-top: 30px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.modal-scroll {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.logo-obra {
+    height: 140px;
+    width: 230px;
+}
+
+.logo-obra img {
+    height: 130px;
+    width: 230px;
+}
