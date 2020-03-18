@@ -10,10 +10,8 @@ volumes:
 services:
     app:    
         build: 
-            context: docker/
-            args:
-                TIMEZONE: ${TIMEZONE}    
-        container_name: app
+            context: docker/   
+        container_name: awslocal
         depends_on:
           - localstack
         environment:
@@ -30,7 +28,7 @@ services:
             - application
     localstack:
         image: localstack/localstack:latest
-        container_name: localstack_demo
+        container_name: localstack
         ports:
           - '4567-4599:4567-4599'
           - '8080:8080'
